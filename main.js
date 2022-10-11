@@ -11,10 +11,13 @@ function myfunction(){
         alert("debes llenar todos los campos");
         return false;
         
-    } else {
+    } else if(email.value==="diegoubillaramos@gmail.com" && password.value==="123") {
         alert("inicio exitoso");
         return true;
         
+    }else{
+        alert("datos incorrectos");
+        return false;
     }
 }
 
